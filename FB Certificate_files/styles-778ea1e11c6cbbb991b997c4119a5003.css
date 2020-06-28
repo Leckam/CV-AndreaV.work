@@ -1,0 +1,465 @@
+
+/* Theming CSS */
+  /* Header color */
+  .u-org--header {
+    background-color: #1877F2 !important;
+  }
+
+
+  /* Header text color */
+  .u-org--header {
+    color: #fff;
+  }
+
+  button.u-org--header.appheader__button:not(.appheader__categoriesbutton):hover,
+  button.u-org--header.appheader__button:not(.appheader__categoriesbutton):active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+
+  }
+
+  button.u-org--header:not(.appnav__link):hover,
+  button.u-org--header:not(.appnav__link):active {
+    color: #fff;
+  }
+
+  button.u-org--header:not(.appnav__link):not(.appheader__categoriesbutton) {
+    border-color: #fff !important;
+  }
+
+  button.u-org--header.appheader__categoriesbutton,
+  input[type="search"].u-org--header {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+
+  button.u-org--header.appheader__categoriesbutton:hover,
+  button.u-org--header.appheader__categoriesbutton:active,
+  button.u-org--header.appheader__categoriesbutton:focus,
+  input[type="search"].u-org--header:hover,
+  input[type="search"].u-org--header:active {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  input[type="search"].u-org--header:focus {
+    border-color: transparent !important;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus):-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus)::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .u-org--header .search__input--appheader:not(:focus)::placeholder {
+    color: #fff;
+  }
+
+
+  /* Organization color */
+  .u-orgcolor--color,
+  .u-orgcolor--hovercolor:hover {
+    color: #default !important;
+  }
+  .u-orgcolor--bg,
+  .u-orgcolor--hoverbg:hover {
+    background-color: #default !important;
+  }
+  .u-orgcolor--border,
+  .u-orgcolor--border:link,
+  .u-orgcolor--border:visited,
+  .u-orgcolor--border:hover,
+  .u-orgcolor--border:active,
+  .u-orgcolor--border:focus {
+    border-color: #default;
+    color: #default;
+  }
+  .u-orgcolor--borderhover:hover,
+  .u-orgcolor--borderhover:hover {
+    border-color: #default;
+  }
+  .u-orgcolor--svgfill {
+    color: #default;
+    fill: #default;
+  }
+  .u-orgcolor--svgstroke {
+    color: #default;
+    stroke: #default;
+  }
+  .u-orgcolor--svgall {
+    color: #default;
+    fill: #default;
+    stroke: #default;
+  }
+  .u-org--svgactive[data-active="true"],
+  .u-org--svgactive:hover {
+    color: #default !important;
+    stroke: #default !important;
+  }
+  .u-org--barchart:after {
+    background-color: #default !important;
+  }
+  .u-org--piechart {
+    color: rgba(0, 0, 0, 0.15);
+    stroke: #default;
+  }
+  .u-org--tooltip {
+    background-color: #default;
+  }
+  .u-org--tooltiptop:before {
+    border-top-color: #default;
+  }
+  .u-org--tooltipright:before {
+    border-right-color: #default;
+  }
+  .u-org--tooltipbottom:before {
+    border-bottom-color: #default;
+  }
+  .u-org--tooltipleft:before {
+    border-left-color: #default;
+  }
+  .updatecard__heading--new:before {
+    background-color: #default;
+  }
+  .session:before {
+    background-color: #default;
+  }
+  .activityprogress__value {
+    background-color: #default;
+  }
+}
+  body[data-custom-ui="facebook"] .iconbutton,
+  body[data-custom-ui="facebook"] .comments__headerbutton, {
+    color: #default;
+  }
+
+  .u-org--catalogflag {
+    border-top-color: #default;
+  }
+  .u-org--catalogflagbg {
+    background-color: #default;
+  }
+  .u-org--catalogflagfill {
+    color: #default;
+    fill: #default;
+  }
+
+  .u-org--tabactive,
+  .u-org--tab:hover,
+  .u-org--tab:active,
+  .u-org--tab:focus {
+    border-color: #default;
+  }
+  .link--primary,
+  .u-org--link,
+  .u-org--link:link,
+  .u-org--link:visited,
+  .u-org--link:hover,
+  .u-org--link:active,
+  .u-org--link:focus {
+    color: #default;
+  }
+  .u-org--linkhover:hover,
+  .u-org--linkhover:active,
+  .u-org--linkhover:focus {
+    color: #default;
+  }
+
+  body[data-custom-ui="facebook"] .button--primary:not([disabled="true"]),
+  body[data-custom-ui="facebook"] .button--primary:link,
+  body[data-custom-ui="facebook"] .button--primary:visited,
+  body[data-custom-ui="facebook"] .button--primary:hover,
+  body[data-custom-ui="facebook"] .button--primary:active,
+  body[data-custom-ui="facebook"] .button--primary:focus,
+  body[data-custom-ui="facebook"] .blankslate .button,
+  body[data-custom-ui="facebook"] .coursebar__btn--active,
+  body[data-custom-ui="facebook"] .coursebar__btn--active:hover,
+  body[data-custom-ui="facebook"] .coursebar__btn--active:focus {
+    background-color: #default !important;
+    border-color: #default !important;
+    color: #fff !important;
+  }
+  body[data-custom-ui="facebook"] button.pathdrawer__btn--floating,
+  body[data-custom-ui="facebook"] button.pathdrawer__btn--floating:hover,
+  body[data-custom-ui="facebook"] button.pathdrawer__btn--floating:focus {
+    background-color: #default;
+    border-color: #default;
+    color: #fff;
+  }
+
+  body[data-custom-ui="facebook"] .button--secondary,
+  body[data-custom-ui="facebook"] .button--secondary:link,
+  body[data-custom-ui="facebook"] .button--secondary:visited,
+  body[data-custom-ui="facebook"] .button--secondary:hover,
+  body[data-custom-ui="facebook"] .button--secondary:active,
+  body[data-custom-ui="facebook"] .button--secondary:focus,
+  body[data-custom-ui="facebook"] .dropdown__trigger:not(.dropdown__trigger--link) {
+    background-color: transparent;
+    border-color: #default;
+    color: #default;
+  }
+  body[data-custom-ui="facebook"] .dropdown__trigger:not(.dropdown__trigger--link) {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.07 4.54"><path d="M4.07,4.54 C3.938,4.538 3.812,4.484 3.72,4.39 L0.18,0.85 C-0.016,0.654 -0.016,0.336 0.18,0.14 C0.376,-0.056 0.694,-0.056 0.89,0.14 L4.07,3.32 L7.25,0.14 C7.446,-0.056 7.764,-0.056 7.96,0.14 C8.156,0.336 8.156,0.654 7.96,0.85 L4.42,4.39 C4.328,4.484 4.202,4.538 4.07,4.54 z" fill="#default" /></svg>');
+  }
+
+  .tooltip {
+    background-color: #default;
+  }
+  .tooltip--left::before {
+    border-left-color: #default;
+  }
+  .tooltip--right::before {
+    border-right-color: #default;
+  }
+  .tooltip--bottom::before,
+  .tooltip--bottom-left::before,
+  .tooltip--bottom-right::before {
+    border-bottom-color: #default;
+  }
+  .tooltip--top::before,
+  .tooltip--top-left::before,
+  .tooltip--top-right::before {
+    border-top-color: #default;
+  }
+  .checkbox--primary .checkbox__input:checked + .checkbox__ui {
+    background-color: #default;
+    border: 2px solid #default;
+  }
+  .question .checkbox__input:checked + .checkbox__ui {
+    background-color: #default;
+    border: 1px solid #default;
+  }
+  .question .radio__input:checked + .radio__ui {
+    border-color: #default;
+  }
+  .question .radio__input:checked + .radio__ui::before {
+    background-color: #default;
+  }
+  .rank__listitem .radio__input:checked + .radio__ui {
+    border-color: #default;
+  }
+  .rank__listitem .radio__input:checked + .radio__ui::before {
+    background-color: #default;
+  }
+  .sharelinks__link:hover,
+  .sharelinks__link:focus,
+  .sharelinks__link.button:hover,
+  .sharelinks__link.button:focus {
+    color: #default;
+  }
+  .rating input[type="radio"]:not([disabled]) + label {
+    color: #default;
+  }
+  .courselist__item[data-status="completed"] .courselist__marker,
+  .pathmenu__sectionitem[data-status="completed"] .pathmenu__itemmarker {
+    color: #default;
+  }
+
+  /* Branding logo */
+  .header__titleicon.u-org--titleicon {
+    max-width: 120px;
+  }
+  @media (min-width: 370px) {
+    .header__titleicon.u-org--titleicon {
+      max-width: 160px;
+    }
+  }
+  .u-org--titleicon + .header__titletext,
+  .u-org--titleicon + .sidemenu__titletext {
+    display: none;
+  }
+  .u-org--header .header__titlelink {
+    text-overflow: clip;
+  }
+
+  /* Custom CSS */
+  /* Hide app switcher*/
+button.appheader__button--appswitcher {
+    display: none;
+}
+
+/* Hide org switcher mobile */
+div.appnav__section--mobile:nth-child(4) {
+ display: none;
+}
+
+.activitymeta__item--highlighted.theme__catalogicon {
+    display: none;
+}
+
+.award__meta {
+  display: none;
+}
+
+.award__congrats {
+font-family: 'Helvetica',sans-serif;
+}
+
+.award__studentname {
+font-family: 'Helvetica',sans-serif;
+}
+
+.award__completed {
+font-family: 'Helvetica',sans-serif;
+}
+
+.award__meta {
+font-family: 'Helvetica',sans-serif;
+}
+
+body, body.new_student, body.new_student *, .button, .form__input, .form__select, input[type='text'].search__input, .course__contentcontainer *, .coursepage__navlabel {
+  font-family: "Optimistic Display", Montserrat, Helvetica, Arial, "Noto Sans", sans-serif !important;
+}
+
+.activitycard__imagecontainer, .card__image--course, .coursedetail__image {
+border-radius: 15px 15px 15px 0px;
+overflow: hidden;
+z-index: 1;
+}
+.course-image a {
+  display: block;
+  border-radius: 8px 8px 8px 0px;
+  overflow: hidden;
+}
+.course-image a img, .course-image a svg {
+  display: block;
+}
+.activity__assessmentvisual img,
+.activity__coursevisual img,
+.activity__eventvisual img,
+.activity__postvisual img {
+  border-radius: 15px 15px 15px 0px;
+  height: auto;
+  width: 135px;
+}
+.activity__assessmentvisual svg,
+.activity__coursevisual svg,
+.activity__eventvisual svg,
+.activity__postvisual svg {
+  border-radius: 15px 15px 15px 0px;
+  height: 90px;
+  width: 135px;
+}
+
+@media (min-width: 768px) {
+  body.new_student table.courses .course-status {
+    display: none;
+  }
+}
+
+[data-controller="authentication"] main, [data-controller="facebook"] main {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("/assets/facebook/welcome.jpg");
+  background-size: cover;
+}
+
+[data-controller="authentication"] div.login h2, [data-controller="facebook"] div.login h2 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.login_avatar {
+  display: none;
+}
+
+.profilehero {
+    background-image: url(/assets/facebook/hero_default.jpg);
+    background-position: center;
+}
+
+input.header__searchinput {
+  border-color: #3b5999;
+}
+
+.forgot-your-password, .forgot-your-password-directions, .password-reset-check-your-email, .user-registration .form-section-heading, .user-registration h3, .user-registration h1, .user-registration label, .user-registration .cancel-button {
+  color: #fff;
+}
+
+/* hide assessment report details for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.assmntreport__details div.assmntreport__heading
+{ display: none; }
+
+/* hide assessment report donut chart for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.donutchart
+{ display: none; }
+
+/* hide assessment report category results for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] #response_section_details.assmntreport__section
+{ display: none; }
+
+/* hide assessment report recommendations for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] #recommendations.assmntreport__section
+{ display: none; }
+
+/* hide assessment passed or failed pieces of text for skills assessments */
+div.assmntreport[data-course-assessment-code^='CH-SA'] .assmntreport__details .assmntreport__heading
+{ display: none; }
+
+/* hide assessment questions-correct and points for skills assessments */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.assmntreport__stats
+{ display: none; }
+
+/* hide select all that apply instructions on questions */
+div.question-instuctions[data-course-assessment-code^='CH-SA']
+{ display: none; }
+/* hide assessment report details for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.assmntreport__details div.assmntreport__heading,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] div.assmntreport__details div.assmntreport__heading
+{ display: none; }
+
+/* hide assessment report donut chart for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.donutchart,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] div.donutchart
+{ display: none; }
+
+/* hide assessment report category results for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] #response_section_details.assmntreport__section,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] #response_section_details.assmntreport__section
+{ display: none; }
+
+/* hide assessment report recommendations for MCP skills assessment */
+div.assmntreport[data-course-assessment-code^='CH-SA'] #recommendations.assmntreport__section,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] #recommendations.assmntreport__section
+{ display: none; }
+
+/* hide assessment passed or failed pieces of text for skills assessments */
+div.assmntreport[data-course-assessment-code^='CH-SA'] .assmntreport__details .assmntreport__heading,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] .assmntreport__details .assmntreport__heading
+{ display: none; }
+
+/* hide assessment questions-correct and points for skills assessments */
+div.assmntreport[data-course-assessment-code^='CH-SA'] div.assmntreport__stats,
+div.assmntreport[data-course-assessment-code^='BPL-ENG-SA-0001'] div.assmntreport__stats
+{ display: none; }
+
+/* hide select all that apply instructions on questions */
+div.question-instuctions[data-course-assessment-code^='CH-SA'],
+div.question-instuctions[data-course-assessment-code^='BPL-ENG-SA-0001']
+{ display: none; }
+
+/* notifications icon badge customization */
+span.badge.header__badge.theme__icon-highlight[data-behavior='notifications.unreadNumber'] {
+  background-color: #fc2e43;
+}
+
+svg.btnicon.btn__notifications {
+  color: #1D2945;
+}
+
+svg.btnicon.btn__notifications.btn__notifications--unread {
+  color: #fff;
+}
+button.button.button--blueprint-login-as-organization {
+  display: none;
+}
+
+.award__congrats {
+    display: none;
+}
+button#app-locale-trigger.menulist__trigger,
+select#user_locale.form__select,
+span.menulist__optionname {
+    text-transform: capitalize;
+}
+a.button.tiny.green.passfail { color: #fff; background-color: #1ab2f5; border-color: #1ab2f5; }
+
